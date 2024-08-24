@@ -28,25 +28,54 @@ def load_tiff_image(file_path):
 
 # Step 3: Process the Image to Highlight Craters
 def process_image(image, sigma=2.0, min_size=10, closing_disk_size=5):
+    # Normalize image values if needed
+    if np.max(image) > 1:
+        image = image / np.max(image)
+
     # Apply a Gaussian filter to smooth the image
     smoothed_image = filters.gaussian(image, sigma=sigma)
+
+    # Display the smoothed image
+    plt.figure(figsize=(6, 6))
+    plt.imshow(smoothed_image, cmap='gray')
+    plt.title("Smoothed Image")
+    plt.axis('off')
+    plt.show()
 
     # Enhance sharpness using an unsharp mask filter
     sharp_image = unsharp_mask(smoothed_image, radius=1.0, amount=1.5)
 
+    # Display the sharpened image
+    plt.figure(figsize=(6, 6))
+    plt.imshow(sharp_image, cmap='gray')
+    plt.title("Sharpened Image")
+    plt.axis('off')
+    plt.show()
+
     # Use the Sobel filter to detect edges
     edges = filters.sobel(sharp_image)
+
+    # Display the edges
+    plt.figure(figsize=(6, 6))
+    plt.imshow(edges, cmap='gray')
+    plt.title("Edges")
+    plt.axis('off')
+    plt.show()
 
     # Threshold the image to separate craters using Otsu's method
     thresh = threshold_otsu(edges)
     binary_image = edges > thresh
 
+    # Display the binary image
+    plt.figure(figsize=(6, 6))
+    plt.imshow(binary_image, cmap='gray')
+    plt.title("Binary Image")
+    plt.axis('off')
+    plt.show()
+
     # Perform morphological operations to enhance the features
     cleaned_image = morphology.remove_small_objects(binary_image, min_size=min_size)
     cleaned_image = morphology.binary_closing(cleaned_image, morphology.disk(closing_disk_size))
-
-    # Display intermediate steps
-    display_intermediate_steps(smoothed_image, sharp_image, edges, binary_image)
 
     return cleaned_image
 
