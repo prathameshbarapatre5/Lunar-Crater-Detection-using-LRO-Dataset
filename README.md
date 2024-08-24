@@ -3,6 +3,7 @@
 ### **Lunar Crater Detection**
 
 **Authors:** Mr. Prathmesh Barapatre, Ms. Sejal Jain
+
 This repository contains Python code for detecting and analyzing lunar craters using the Lunar Reconnaissance Orbiter (LRO) dataset. The code leverages image processing techniques and computer vision algorithms to identify and characterize craters on the lunar surface.
 
 **Key Features:**
