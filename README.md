@@ -6,6 +6,9 @@
 
 This repository contains Python code for detecting and analyzing lunar craters using the Lunar Reconnaissance Orbiter (LRO) dataset. The code leverages image processing techniques and computer vision algorithms to identify and characterize craters on the lunar surface.
 
+Dataset used in the project can be found here, this was taken from LRO Website(https://pds-imaging.jpl.nasa.gov/volumes/lro.html)
+link for dataset: https://drive.google.com/file/d/1L-14-V4QG1VUtHarI1agPCGRAtBlrfvf/view?usp=sharing
+
 **Key Features:**
 * **Image Loading and Preprocessing:** Loads TIFF images from Google Drive and prepares them for analysis by converting to grayscale, smoothing, sharpening, edge detection, and thresholding.
 * **Crater Detection:** Identifies crater regions based on connected components and morphological operations.
