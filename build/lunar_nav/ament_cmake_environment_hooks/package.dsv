@@ -1,0 +1,4 @@
+source;share/lunar_nav/local_setup.bash
+source;share/lunar_nav/local_setup.dsv
+source;share/lunar_nav/local_setup.sh
+source;share/lunar_nav/local_setup.zsh

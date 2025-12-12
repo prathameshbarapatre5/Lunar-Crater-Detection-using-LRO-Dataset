@@ -1,0 +1,268 @@
+[0.008s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.107s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.171s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.171s] -- Detecting C compile features
+[0.171s] -- Detecting C compile features - done
+[0.174s] -- Detecting CXX compiler ABI info
+[0.238s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.243s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.445s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.447s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.452s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.533s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.804s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.033s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.331s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.352s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.353s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.375s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.375s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.375s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.375s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.394s] -- Found PythonExtra: .so  
+[1.453s] -- Configuring done
+[1.482s] -- Generating done
+[1.492s] -- Build files have been written to: /home/pb/Documents/R2/build/lunar_nav
+[1.497s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav
+[1.499s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20
+[1.530s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.539s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.545s] [  5%] Built target ament_cmake_python_copy_lunar_nav
+[1.754s] running egg_info
+[1.755s] creating lunar_nav.egg-info
+[1.755s] writing lunar_nav.egg-info/PKG-INFO
+[1.755s] writing dependency_links to lunar_nav.egg-info/dependency_links.txt
+[1.755s] writing top-level names to lunar_nav.egg-info/top_level.txt
+[1.755s] writing manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[1.757s] reading manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[1.758s] writing manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[1.762s] [  5%] Built target lunar_nav__cpp
+[1.769s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.769s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.771s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.780s] [ 12%] Built target ament_cmake_python_build_lunar_nav_egg
+[1.802s] [ 15%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_c.dir/rosidl_generator_c/lunar_nav/msg/detail/crater_array__functions.c.o[0m
+[1.803s] [ 17%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_c.dir/rosidl_generator_c/lunar_nav/msg/detail/crater__functions.c.o[0m
+[1.835s] [ 20%] [32m[1mLinking C shared library liblunar_nav__rosidl_generator_c.so[0m
+[1.866s] [ 20%] Built target lunar_nav__rosidl_generator_c
+[1.875s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.875s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.875s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.927s] [ 33%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunar_nav/msg/detail/dds_fastrtps/crater_array__type_support.cpp.o[0m
+[1.927s] [ 33%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunar_nav/msg/detail/dds_fastrtps/crater__type_support.cpp.o[0m
+[1.948s] [ 35%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunar_nav/msg/crater_array__type_support.cpp.o[0m
+[1.950s] [ 38%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunar_nav/msg/crater__type_support.cpp.o[0m
+[2.017s] [ 41%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunar_nav/msg/detail/crater_array__type_support.cpp.o[0m
+[2.019s] [ 43%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunar_nav/msg/detail/crater__type_support.cpp.o[0m
+[2.067s] [ 48%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunar_nav/msg/detail/crater__type_support_c.cpp.o[0m
+[2.067s] [ 48%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunar_nav/msg/detail/crater_array__type_support_c.cpp.o[0m
+[2.111s] [ 53%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunar_nav/msg/crater_array__type_support.cpp.o[0m
+[2.111s] [ 53%] [32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunar_nav/msg/crater__type_support.cpp.o[0m
+[2.135s] [ 56%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunar_nav/msg/detail/crater__type_support.c.o[0m
+[2.135s] [ 58%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunar_nav/msg/detail/crater_array__type_support.c.o[0m
+[2.138s] [ 61%] [32m[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_c.so[0m
+[2.170s] [ 64%] [32m[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.170s] [ 66%] [32m[1mLinking C shared library liblunar_nav__rosidl_typesupport_introspection_c.so[0m
+[2.174s] [ 66%] Built target lunar_nav__rosidl_typesupport_c
+[2.197s] [ 66%] Built target lunar_nav__rosidl_typesupport_introspection_c
+[2.204s] [ 69%] [32m[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_cpp.so[0m
+[2.231s] [ 69%] Built target lunar_nav__rosidl_typesupport_fastrtps_cpp
+[2.240s] [ 69%] Built target lunar_nav__rosidl_typesupport_cpp
+[2.250s] [ 71%] [32m[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_fastrtps_c.so[0m
+[2.314s] [ 71%] Built target lunar_nav__rosidl_typesupport_fastrtps_c
+[2.362s] [ 74%] [32m[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_introspection_cpp.so[0m
+[2.424s] [ 74%] Built target lunar_nav__rosidl_typesupport_introspection_cpp
+[2.439s] [ 74%] Built target lunar_nav
+[2.455s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.794s] [ 76%] Built target lunar_nav__py
+[2.810s] [ 82%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_py.dir/rosidl_generator_py/lunar_nav/msg/_crater_array_s.c.o[0m
+[2.810s] [ 82%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_py.dir/rosidl_generator_py/lunar_nav/msg/_crater_s.c.o[0m
+[2.899s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/lunar_nav/liblunar_nav__rosidl_generator_py.so[0m
+[2.935s] [ 84%] Built target lunar_nav__rosidl_generator_py
+[2.951s] [ 92%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.952s] [ 92%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.952s] [ 92%] [32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_c.c.o[0m
+[3.018s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.038s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.038s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.053s] [100%] Built target lunar_nav__rosidl_typesupport_fastrtps_c__pyext
+[3.073s] [100%] Built target lunar_nav__rosidl_typesupport_introspection_c__pyext
+[3.073s] [100%] Built target lunar_nav__rosidl_typesupport_c__pyext
+[3.082s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20
+[3.089s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pb/Documents/R2/build/lunar_nav
+[3.095s] -- Install configuration: ""
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav/crater_detector
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav/particle_filter
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/rosidl_interfaces/lunar_nav
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__functions.c
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__struct.h
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__functions.h
+[3.096s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__struct.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__functions.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__functions.c
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_generator_c__visibility_control.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater_array.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater.h
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/library_path.sh
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/library_path.dsv
+[3.097s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_c.so
+[3.098s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_c.so" to ""
+[3.098s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.098s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.098s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.098s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_fastrtps_c.h
+[3.098s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_fastrtps_c.h
+[3.098s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.098s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_c.so
+[3.099s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_c.so" to ""
+[3.099s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.099s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.099s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_introspection_c.h
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.c
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_introspection_c.h
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.c
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_c.so
+[3.099s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_c.so" to ""
+[3.099s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_c.so
+[3.100s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_c.so" to ""
+[3.100s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.100s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater_array.hpp
+[3.100s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__traits.hpp
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.hpp
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__struct.hpp
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__traits.hpp
+[3.100s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__struct.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__builder.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__builder.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.101s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.101s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.101s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_fastrtps_cpp.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_fastrtps_cpp.hpp
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/dds_fastrtps
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.101s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_cpp.so
+[3.102s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.102s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav
+[3.102s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg
+[3.102s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail
+[3.102s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.cpp
+[3.102s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_introspection_cpp.hpp
+[3.102s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.cpp
+[3.102s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_introspection_cpp.hpp
+[3.102s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_cpp.so
+[3.102s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_cpp.so" to ""
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_cpp.so
+[3.103s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_cpp.so" to ""
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.sh
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.dsv
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/top_level.txt
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/PKG-INFO
+[3.103s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.104s] -- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_introspection_c.c
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/__init__.py
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array_s.c
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_s.c
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater.py
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array.py
+[3.104s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_c.c
+[3.105s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/liblunar_nav__rosidl_generator_py.so
+[3.105s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.136s] Listing '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav'...
+[3.136s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py'...
+[3.136s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py'...
+[3.136s] Listing '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg'...
+[3.137s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/__init__.py'...
+[3.137s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater.py'...
+[3.137s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array.py'...
+[3.137s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py'...
+[3.141s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.141s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.141s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.142s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.142s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.142s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.142s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_py.so
+[3.143s] -- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_py.so" to ""
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/Crater.idl
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/CraterArray.idl
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/Crater.msg
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/CraterArray.msg
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch/crater_navigation.launch.py
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf/rover.urdf.xacro
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds/lunar_crater.world
+[3.143s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/package_run_dependencies/lunar_nav
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/parent_prefix_path/lunar_nav
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.sh
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.dsv
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.sh
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.dsv
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.bash
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.sh
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.zsh
+[3.144s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.dsv
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.dsv
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages/lunar_nav
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cExport.cmake
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cExport-noconfig.cmake
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cExport.cmake
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.145s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cExport.cmake
+[3.146s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.146s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cExport.cmake
+[3.146s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cExport-noconfig.cmake
+[3.146s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cppExport.cmake
+[3.146s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cppExport.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cppExport.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cppExport-noconfig.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_pyExport.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_pyExport-noconfig.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_libraries-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_targets-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.147s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.148s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig.cmake
+[3.148s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig-version.cmake
+[3.148s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.xml
+[3.150s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pb/Documents/R2/build/lunar_nav

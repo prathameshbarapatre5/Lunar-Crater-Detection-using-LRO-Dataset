@@ -1,0 +1,2 @@
+Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20
+Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20

@@ -1,0 +1,427 @@
+[INFO] [launch]: All log files can be found below /home/pb/.ros/log/2025-12-11-20-02-41-743018-prathmesh-80732
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [gzserver-1]: process started with pid [80734]
+[INFO] [gzclient-2]: process started with pid [80736]
+[INFO] [robot_state_publisher-3]: process started with pid [80738]
+[INFO] [spawn_entity.py-4]: process started with pid [80740]
+[INFO] [crater_detector-5]: process started with pid [80742]
+[INFO] [particle_filter-6]: process started with pid [80744]
+[INFO] [navigator-7]: process started with pid [80746]
+[INFO] [static_transform_publisher-8]: process started with pid [80748]
+[static_transform_publisher-8] [WARN] [1765501362.194331486] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-8] [INFO] [1765501362.542298964] [map_tf]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'map' to 'odom'
+[robot_state_publisher-3] [INFO] [1765501362.546545332] [robot_state_publisher]: got segment base_footprint
+[robot_state_publisher-3] [INFO] [1765501362.546626825] [robot_state_publisher]: got segment base_link
+[robot_state_publisher-3] [INFO] [1765501362.546631317] [robot_state_publisher]: got segment camera_link
+[robot_state_publisher-3] [INFO] [1765501362.546634334] [robot_state_publisher]: got segment front_left_wheel
+[robot_state_publisher-3] [INFO] [1765501362.546636882] [robot_state_publisher]: got segment front_right_wheel
+[robot_state_publisher-3] [INFO] [1765501362.546639326] [robot_state_publisher]: got segment imu_link
+[robot_state_publisher-3] [INFO] [1765501362.546641693] [robot_state_publisher]: got segment rear_left_wheel
+[robot_state_publisher-3] [INFO] [1765501362.546644046] [robot_state_publisher]: got segment rear_right_wheel
+[particle_filter-6] [INFO] [1765501362.570705138] [particle_filter]: Loaded 15 craters from map.
+[particle_filter-6] [INFO] [1765501362.574991980] [particle_filter]: Particle Filter Node Started
+[navigator-7] [INFO] [1765501362.585010325] [navigator]: Loaded 15 obstacles.
+[crater_detector-5] [INFO] [1765501362.595741819] [crater_detector]: Crater Detector Node Started
+[spawn_entity.py-4] [INFO] [1765501362.599370757] [spawn_entity]: Spawn Entity started
+[spawn_entity.py-4] [INFO] [1765501362.599579472] [spawn_entity]: Loading entity published on topic robot_description
+[spawn_entity.py-4] [INFO] [1765501362.600851007] [spawn_entity]: Waiting for entity xml on robot_description
+[spawn_entity.py-4] [INFO] [1765501362.611594560] [spawn_entity]: Waiting for service /spawn_entity, timeout = 30
+[spawn_entity.py-4] [INFO] [1765501362.611774254] [spawn_entity]: Waiting for service /spawn_entity
+[navigator-7] [WARN] [1765501362.621793092] [navigator]: Navigator using PARTICLE FILTER for control.
+[navigator-7] [INFO] [1765501362.624654493] [navigator]: Navigator Node Started. Waiting for goal...
+[spawn_entity.py-4] [INFO] [1765501363.114719370] [spawn_entity]: Calling service /spawn_entity
+[gzserver-1] [INFO] [1765501363.942963344] [camera.depth_camera_controller]: Publishing camera info to [/camera/depth/camera_info]
+[gzserver-1] [INFO] [1765501363.943962434] [camera.depth_camera_controller]: Publishing depth camera info to [/camera/depth_camera/depth/camera_info]
+[gzserver-1] [INFO] [1765501363.944541273] [camera.depth_camera_controller]: Publishing pointcloud to [/camera/depth/points]
+[spawn_entity.py-4] [INFO] [1765501363.951209032] [spawn_entity]: Spawn status: SpawnEntity: Successfully spawned entity [lunar_rover]
+[gzserver-1] [INFO] [1765501364.068939483] [diff_drive]: Wheel pair 1 separation set to [0.500000m]
+[gzserver-1] [INFO] [1765501364.068988827] [diff_drive]: Wheel pair 1 diameter set to [0.300000m]
+[gzserver-1] [INFO] [1765501364.069992090] [diff_drive]: Subscribed to [/cmd_vel]
+[gzserver-1] [INFO] [1765501364.072042188] [diff_drive]: Advertise odometry on [/odom]
+[gzserver-1] [INFO] [1765501364.074500186] [diff_drive]: Publishing odom transforms between [odom] and [base_footprint]
+[gzserver-1] [INFO] [1765501364.074538384] [diff_drive]: Publishing wheel transforms between [base_footprint], [front_left_wheel_joint] and [front_right_wheel_joint]
+[gzserver-1] [INFO] [1765501364.074551217] [diff_drive]: Publishing wheel transforms between [base_footprint], [rear_left_wheel_joint] and [rear_right_wheel_joint]
+[INFO] [spawn_entity.py-4]: process has finished cleanly [pid 80740]
+[crater_detector-5] [INFO] [1765501364.325899846] [crater_detector]: Camera Intrinsics: fx=554.3827128226441, fy=554.3827128226441, cx=320.5, cy=240.5
+[navigator-7] [INFO] [1765501383.161429671] [navigator]: Received goal: (10.0, -10.0)
+[navigator-7] [INFO] [1765501383.163225715] [navigator]: Path found with 42 waypoints
+[navigator-7] [INFO] [1765501385.161725298] [navigator]: Received goal: (10.0, -10.0)
+[navigator-7] [INFO] [1765501385.164750613] [navigator]: Path found with 38 waypoints
+[navigator-7] [INFO] [1765501387.162144824] [navigator]: Received goal: (10.0, -10.0)
+[navigator-7] [INFO] [1765501387.165834098] [navigator]: Path found with 34 waypoints
+[navigator-7] [INFO] [1765501389.161567764] [navigator]: Received goal: (10.0, -10.0)
+[navigator-7] [INFO] [1765501389.163102570] [navigator]: Path found with 30 waypoints
+[navigator-7] [INFO] [1765501391.161623122] [navigator]: Received goal: (10.0, -10.0)
+[navigator-7] [INFO] [1765501391.163597010] [navigator]: Path found with 26 waypoints
+[navigator-7] [INFO] [1765501393.161723432] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501393.165357915] [navigator]: Path found with 46 waypoints
+[navigator-7] [INFO] [1765501395.161769280] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501395.165645834] [navigator]: Path found with 43 waypoints
+[navigator-7] [INFO] [1765501397.161472625] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501397.164596960] [navigator]: Path found with 41 waypoints
+[navigator-7] [INFO] [1765501399.161032397] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501399.162555027] [navigator]: Path found with 37 waypoints
+[navigator-7] [INFO] [1765501401.161227204] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501401.162502875] [navigator]: Path found with 33 waypoints
+[navigator-7] [INFO] [1765501403.161379960] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501403.163204952] [navigator]: Path found with 30 waypoints
+[navigator-7] [INFO] [1765501405.161715416] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501405.163334909] [navigator]: Path found with 27 waypoints
+[navigator-7] [INFO] [1765501407.161523377] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501407.163123366] [navigator]: Path found with 27 waypoints
+[navigator-7] [INFO] [1765501409.161878119] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501409.163774727] [navigator]: Path found with 27 waypoints
+[navigator-7] [INFO] [1765501411.161181330] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501411.162197799] [navigator]: Path found with 26 waypoints
+[navigator-7] [INFO] [1765501413.162452178] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501413.167320259] [navigator]: Path found with 22 waypoints
+[navigator-7] [INFO] [1765501415.161457321] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [ERROR] [1765501415.161838671] [navigator]: No path found!
+[navigator-7] [INFO] [1765501417.161535519] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501417.162809894] [navigator]: Path found with 17 waypoints
+[navigator-7] [INFO] [1765501419.164015433] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501419.167997475] [navigator]: Path found with 15 waypoints
+[navigator-7] [INFO] [1765501421.162767457] [navigator]: Received goal: (10.0, 10.0)
+[navigator-7] [INFO] [1765501421.164664099] [navigator]: Path found with 11 waypoints
+[navigator-7] [INFO] [1765501423.162248175] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501423.168407995] [navigator]: Path found with 42 waypoints
+[navigator-7] [INFO] [1765501425.161501568] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501425.165487379] [navigator]: Path found with 47 waypoints
+[navigator-7] [INFO] [1765501427.161394571] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501427.163511047] [navigator]: Path found with 48 waypoints
+[navigator-7] [INFO] [1765501429.161377981] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501429.163064037] [navigator]: Path found with 47 waypoints
+[navigator-7] [INFO] [1765501431.162299317] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501431.167991563] [navigator]: Path found with 44 waypoints
+[navigator-7] [INFO] [1765501433.161346753] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501433.162438364] [navigator]: Path found with 42 waypoints
+[navigator-7] [INFO] [1765501435.162803997] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501435.167108236] [navigator]: Path found with 39 waypoints
+[navigator-7] [INFO] [1765501437.162916214] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501437.167558308] [navigator]: Path found with 35 waypoints
+[navigator-7] [INFO] [1765501439.161312107] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501439.162427325] [navigator]: Path found with 31 waypoints
+[navigator-7] [INFO] [1765501441.161355358] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501441.162888271] [navigator]: Path found with 27 waypoints
+[navigator-7] [INFO] [1765501443.161598732] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501443.163197945] [navigator]: Path found with 23 waypoints
+[navigator-7] [INFO] [1765501445.161203911] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501445.162099849] [navigator]: Path found with 19 waypoints
+[navigator-7] [INFO] [1765501447.161067941] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501447.161833555] [navigator]: Path found with 15 waypoints
+[navigator-7] [INFO] [1765501449.161621748] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501449.162628785] [navigator]: Path found with 11 waypoints
+[navigator-7] [INFO] [1765501451.161526600] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501451.162292666] [navigator]: Path found with 7 waypoints
+[navigator-7] [INFO] [1765501453.161651873] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501453.162307432] [navigator]: Path found with 4 waypoints
+[navigator-7] [INFO] [1765501454.924998025] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501455.161599711] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501455.162188549] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501455.225065245] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501457.161375949] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501457.161710483] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501457.224720143] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501459.161442505] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501459.161788230] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501459.224902879] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501461.161214202] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501461.161567660] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501461.224755923] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501463.161253113] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501463.161604026] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501463.224746353] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501465.161625962] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501465.162341036] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501465.225870105] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501467.161422235] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501467.161756280] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501467.224770814] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501469.161498749] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501469.161841827] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501469.224855948] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501471.161488868] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501471.161836877] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501471.224893650] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501473.161503221] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501473.162044097] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501473.225060394] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501475.161353670] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501475.161670227] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501475.224908818] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501477.162466441] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501477.162887695] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501477.224912385] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501479.161169302] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501479.161502529] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501479.224939218] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501481.161470376] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501481.161976190] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501481.225887422] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501483.161492359] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501483.161917592] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501483.226515214] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501485.161521747] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501485.162085434] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501485.226329989] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501487.161417483] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501487.161774195] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501487.224883320] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501489.161382905] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501489.161726948] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501489.224779880] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501491.161644310] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501491.162315652] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501491.225072475] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501493.161612364] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501493.162166961] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501493.225067934] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501495.161359660] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501495.161879154] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501495.224940815] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501497.161190957] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501497.161496780] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501497.224701118] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501499.161576092] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501499.161883019] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501499.224585204] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501501.161556464] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501501.162170560] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501501.224907350] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501503.161337879] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501503.161642293] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501503.224752509] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501505.161373213] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501505.161665763] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501505.225002379] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501507.161655857] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501507.162167182] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501507.224888028] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501509.161428996] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501509.161767154] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501509.225039074] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501511.160967293] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501511.161276571] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501511.224797583] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501513.161069579] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501513.161375410] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501513.224874359] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501515.161461259] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501515.161764418] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501515.224632455] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501517.161577870] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501517.162104314] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501517.225020520] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501519.161350391] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501519.161665596] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501519.224909178] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501521.161442327] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501521.161873067] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501521.224790047] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501523.161531276] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501523.162081090] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501523.224991331] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501525.161507970] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501525.162027659] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501525.224993866] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501527.161467132] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501527.161818708] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501527.224860907] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501529.161389702] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501529.161901118] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501529.225050867] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501531.161408273] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501531.161956284] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501531.224945640] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501533.161540405] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501533.161860168] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501533.224839180] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501535.161491852] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501535.161799469] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501535.224729701] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501537.161480312] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501537.161793956] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501537.224846932] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501539.161402213] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501539.161946434] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501539.224971330] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501541.161342319] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501541.161651420] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501541.224907471] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501543.161509321] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501543.162017592] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501543.225093846] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501545.161221758] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501545.161526564] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501545.224869554] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501547.161124520] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501547.161447488] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501547.224811242] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501549.161439452] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501549.161883957] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501549.224853173] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501551.161389772] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501551.161693689] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501551.224683242] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501553.161523965] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501553.162096170] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501553.225046585] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501555.161687710] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501555.162203294] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501555.225127846] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501557.161409539] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501557.161958390] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501557.224976970] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501559.161190785] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501559.161680099] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501559.224906832] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501561.161157820] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501561.161469591] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501561.224912294] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501563.161274041] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501563.161811442] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501563.225020327] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501565.161379442] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501565.161714731] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501565.224733832] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501567.162064142] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501567.162642544] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501567.224904878] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501569.161518922] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501569.162072138] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501569.225025101] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501571.161299271] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501571.161611916] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501571.224796897] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501573.161220926] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501573.161517615] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501573.224944460] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501575.161258517] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501575.161554153] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501575.224884804] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501577.161400309] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501577.161707813] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501577.224862259] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501579.161375495] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501579.161718561] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501579.224911724] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501581.161557313] [navigator]: Received goal: (-10.0, 10.0)
+[navigator-7] [INFO] [1765501581.162195733] [navigator]: Path found with 1 waypoints
+[navigator-7] [INFO] [1765501581.224988678] [navigator]: GOAL REACHED!
+[gzserver-1] [WARN] [1765501733.616145719] [gazebo.rclcpp]: failed to send response to /spawn_entity (timeout): client will not receive response, at ./src/rmw_response.cpp:154, at ./src/rcl/service.c:314
+[INFO] [gzclient-2]: process has finished cleanly [pid 80736]
+[navigator-7] [INFO] [1765501755.048287273] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501755.049425054] [navigator]: Path found with 41 waypoints
+[navigator-7] [INFO] [1765501757.048168147] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501757.049719019] [navigator]: Path found with 38 waypoints
+[navigator-7] [INFO] [1765501759.048049673] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501759.049650002] [navigator]: Path found with 35 waypoints
+[navigator-7] [INFO] [1765501761.049253961] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501761.054766912] [navigator]: Path found with 32 waypoints
+[navigator-7] [INFO] [1765501763.051097455] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501763.052814697] [navigator]: Path found with 28 waypoints
+[navigator-7] [INFO] [1765501765.048296648] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501765.050148662] [navigator]: Path found with 25 waypoints
+[navigator-7] [INFO] [1765501767.048645748] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501767.051246276] [navigator]: Path found with 22 waypoints
+[navigator-7] [INFO] [1765501769.049771481] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501769.054156818] [navigator]: Path found with 19 waypoints
+[navigator-7] [INFO] [1765501771.047956946] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501771.049114561] [navigator]: Path found with 16 waypoints
+[navigator-7] [INFO] [1765501773.048284621] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501773.049451296] [navigator]: Path found with 12 waypoints
+[navigator-7] [INFO] [1765501775.048509253] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501775.049599511] [navigator]: Path found with 8 waypoints
+[navigator-7] [INFO] [1765501777.049716193] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501777.051407968] [navigator]: Path found with 6 waypoints
+[navigator-7] [INFO] [1765501779.048598020] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501779.055945187] [navigator]: Path found with 32 waypoints
+[navigator-7] [INFO] [1765501781.048406874] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501781.052686307] [navigator]: Path found with 33 waypoints
+[navigator-7] [INFO] [1765501783.048954708] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501783.053957983] [navigator]: Path found with 31 waypoints
+[navigator-7] [INFO] [1765501785.048404083] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501785.051887708] [navigator]: Path found with 28 waypoints
+[navigator-7] [INFO] [1765501787.048196566] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501787.050968549] [navigator]: Path found with 25 waypoints
+[navigator-7] [INFO] [1765501789.048053852] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501789.049734057] [navigator]: Path found with 22 waypoints
+[navigator-7] [INFO] [1765501791.048169459] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501791.049895965] [navigator]: Path found with 19 waypoints
+[navigator-7] [INFO] [1765501793.049733295] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501793.051753121] [navigator]: Path found with 16 waypoints
+[navigator-7] [INFO] [1765501795.048984467] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501795.053146440] [navigator]: Path found with 13 waypoints
+[navigator-7] [INFO] [1765501797.048091606] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501797.049042274] [navigator]: Path found with 10 waypoints
+[navigator-7] [INFO] [1765501799.047921792] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501799.048975614] [navigator]: Path found with 20 waypoints
+[navigator-7] [INFO] [1765501801.048308837] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501801.049056431] [navigator]: Path found with 4 waypoints
+[navigator-7] [INFO] [1765501803.048135334] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501803.048533686] [navigator]: Path found with 3 waypoints
+[navigator-7] [INFO] [1765501805.048339366] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501805.049015430] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501805.224844488] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501807.048255981] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501807.048890927] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501807.124690200] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501809.048229341] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501809.048890992] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501809.124656444] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501811.048320476] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501811.048889382] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501811.124920173] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501813.047955570] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501813.048288440] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501813.124883329] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501815.050524441] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501815.056186069] [navigator]: Path found with 21 waypoints
+[navigator-7] [INFO] [1765501817.048462460] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501817.049051672] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501817.124994007] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501819.048031094] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501819.048409492] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501819.125605770] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501821.049002231] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501821.050823411] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501821.124956451] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501823.047983482] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501823.048475368] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501823.124669667] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501825.048157730] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501825.048522059] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501825.124759160] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501827.047929565] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501827.048286096] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501827.124855311] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501829.048385111] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501829.048729168] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501829.124672718] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501831.048153766] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501831.048749973] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501831.125211495] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501833.048161743] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501833.048493097] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501833.124873770] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501835.048113529] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501835.048455350] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501835.124838937] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501837.048089369] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501837.048425219] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501837.124886050] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501839.048319180] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501839.048870171] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501839.124616837] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501841.047817201] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501841.048204187] [navigator]: Path found with 2 waypoints
+[navigator-7] [INFO] [1765501841.124818629] [navigator]: GOAL REACHED!
+[navigator-7] [INFO] [1765501843.048402483] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501843.050234496] [navigator]: Path found with 21 waypoints
+[navigator-7] [INFO] [1765501845.048381957] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501845.049045345] [navigator]: Path found with 3 waypoints
+[navigator-7] [INFO] [1765501847.048262648] [navigator]: Received goal: (-10.0, -10.0)
+[navigator-7] [INFO] [1765501847.048648004] [navigator]: Path found with 3 waypoints

@@ -1,0 +1,77 @@
+[0.008s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.375s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.455s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.487s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.514s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.538s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.684s] -- Configuring done
+[0.689s] -- Generating done
+[0.691s] -- Build files have been written to: /home/pb/Documents/R2/build/lunar_nav
+[0.696s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav
+[0.698s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20
+[0.745s] Built target ament_cmake_python_copy_lunar_nav
+[0.745s] Built target ament_cmake_python_copy_lunar_nav_setup
+[0.956s] running egg_info
+[0.957s] creating lunar_nav.egg-info
+[0.957s] writing lunar_nav.egg-info/PKG-INFO
+[0.957s] writing dependency_links to lunar_nav.egg-info/dependency_links.txt
+[0.957s] writing top-level names to lunar_nav.egg-info/top_level.txt
+[0.957s] writing manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[0.959s] reading manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[0.959s] writing manifest file 'lunar_nav.egg-info/SOURCES.txt'
+[0.980s] Built target ament_cmake_python_build_lunar_nav_egg
+[0.989s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pb/Documents/R2/build/lunar_nav -- -j20 -l20
+[0.997s] Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pb/Documents/R2/build/lunar_nav
+[1.003s] -- Install configuration: ""
+[1.003s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.sh
+[1.003s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.dsv
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/top_level.txt
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/PKG-INFO
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py
+[1.004s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py
+[1.034s] Listing '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav'...
+[1.034s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py'...
+[1.034s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py'...
+[1.034s] Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py'...
+[1.038s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch
+[1.038s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch/crater_navigation.launch.py
+[1.038s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf
+[1.038s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf/rover.urdf.xacro
+[1.038s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds/lunar_crater.world
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/package_run_dependencies/lunar_nav
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/parent_prefix_path/lunar_nav
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.sh
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.dsv
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.sh
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.dsv
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.bash
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.sh
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.zsh
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.dsv
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.dsv
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages/lunar_nav
+[1.039s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig.cmake
+[1.040s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig-version.cmake
+[1.040s] -- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.xml
+[1.042s] Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pb/Documents/R2/build/lunar_nav

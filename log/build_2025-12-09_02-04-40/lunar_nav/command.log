@@ -1,0 +1,2 @@
+Invoking command in '/home/pb/Documents/R2/build/lunar_nav': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav
+Invoked command in '/home/pb/Documents/R2/build/lunar_nav' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pb/Documents/R2/src/lunar_nav -DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav

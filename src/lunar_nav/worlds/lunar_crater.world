@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <world name="lunar_surface">
+    
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+      <gravity>0 0 -1.62</gravity>
+    </physics>
+
+    <!-- Sun -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground plane removed to prevent z-fighting with heightmap -->
+
+    <!-- Heightmap Terrain -->
+    <model name="lunar_terrain">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <heightmap>
+              <uri>file:///home/pb/Documents/R2/src/lunar_nav/worlds/lunar_heightmap.png</uri>
+              <size>100 100 5</size>
+              <pos>0 0 -2.5</pos>
+            </heightmap>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <heightmap>
+              <use_terrain_paging>false</use_terrain_paging>
+              <uri>file:///home/pb/Documents/R2/src/lunar_nav/worlds/lunar_heightmap.png</uri>
+              <size>100 100 5</size>
+              <pos>0 0 -2.5</pos>
+            </heightmap>
+          </geometry>
+          <material>
+            <script>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+              <name>Gazebo/Grey</name>
+            </script>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Rock 1 -->
+    <model name="rock_1">
+      <static>true</static>
+      <pose>5 -3 0.15 0 0 0.5</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.3 0.25 0.3</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.3 0.25 0.3</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.4 0.4 0.4 1</ambient>
+            <diffuse>0.4 0.4 0.4 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <!-- Better lighting: Softer shadows -->
+    <scene>
+      <ambient>0.6 0.6 0.6 1</ambient>
+      <background>0.1 0.1 0.1 1</background>
+      <shadows>false</shadows> <!-- Turn off shadows to definitely eliminate stripes if they are shadow artifacts -->
+    </scene>
+
+    <gui fullscreen='0'>
+      <camera name='user_camera'>
+        <pose>0 -15 8 0 0.3 1.57</pose>
+        <view_controller>orbit</view_controller>
+      </camera>
+    </gui>
+
+  </world>
+</sdf>

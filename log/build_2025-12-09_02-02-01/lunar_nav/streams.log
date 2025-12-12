@@ -1,0 +1,50 @@
+[0.520s] Invoking command in '/home/pb/Documents/R2/src/lunar_nav': PYTHONPATH=/home/pb/Documents/R2/build/lunar_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lunar_nav build --build-base /home/pb/Documents/R2/build/lunar_nav/build install --record /home/pb/Documents/R2/build/lunar_nav/install.log --single-version-externally-managed install_data
+[0.725s] running egg_info
+[0.725s] creating ../../build/lunar_nav/lunar_nav.egg-info
+[0.725s] writing ../../build/lunar_nav/lunar_nav.egg-info/PKG-INFO
+[0.725s] writing dependency_links to ../../build/lunar_nav/lunar_nav.egg-info/dependency_links.txt
+[0.726s] writing entry points to ../../build/lunar_nav/lunar_nav.egg-info/entry_points.txt
+[0.726s] writing requirements to ../../build/lunar_nav/lunar_nav.egg-info/requires.txt
+[0.726s] writing top-level names to ../../build/lunar_nav/lunar_nav.egg-info/top_level.txt
+[0.726s] writing manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+[0.727s] reading manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+[0.728s] writing manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+[0.728s] running build
+[0.728s] running build_py
+[0.728s] creating /home/pb/Documents/R2/build/lunar_nav/build
+[0.728s] creating /home/pb/Documents/R2/build/lunar_nav/build/lib
+[0.729s] creating /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+[0.729s] copying lunar_nav/particle_filter.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+[0.729s] copying lunar_nav/crater_detector.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+[0.729s] copying lunar_nav/__init__.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+[0.729s] running install
+[0.729s] running install_lib
+[0.729s] creating /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+[0.730s] copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/particle_filter.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+[0.730s] copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/crater_detector.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+[0.730s] copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/__init__.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+[0.730s] byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/particle_filter.py to particle_filter.cpython-310.pyc
+[0.730s] byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/crater_detector.py to crater_detector.cpython-310.pyc
+[0.731s] byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/__init__.py to __init__.cpython-310.pyc
+[0.731s] running install_data
+[0.731s] creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index
+[0.731s] creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index
+[0.731s] creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages
+[0.731s] copying resource/lunar_nav -> /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages
+[0.731s] copying package.xml -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav
+[0.731s] creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/launch
+[0.731s] copying launch/crater_navigation.launch.py -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/launch
+[0.732s] creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/urdf
+[0.732s] copying urdf/rover.urdf.xacro -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/urdf
+[0.732s] creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/worlds
+[0.732s] copying worlds/lunar_crater.world -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/worlds
+[0.732s] creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+[0.732s] copying msg/Crater.msg -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+[0.732s] copying msg/CraterArray.msg -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+[0.732s] running install_egg_info
+[0.733s] Copying ../../build/lunar_nav/lunar_nav.egg-info to /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav-0.0.1-py3.10.egg-info
+[0.734s] running install_scripts
+[0.752s] Installing crater_detector script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+[0.752s] Installing particle_filter script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+[0.752s] writing list of installed files to '/home/pb/Documents/R2/build/lunar_nav/install.log'
+[0.771s] Invoked command in '/home/pb/Documents/R2/src/lunar_nav' returned '0': PYTHONPATH=/home/pb/Documents/R2/build/lunar_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lunar_nav build --build-base /home/pb/Documents/R2/build/lunar_nav/build install --record /home/pb/Documents/R2/build/lunar_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000485] (lunar_nav) JobQueued: {'identifier': 'lunar_nav', 'dependencies': OrderedDict()}
+[0.000902] (lunar_nav) JobStarted: {'identifier': 'lunar_nav'}
+[0.006109] (lunar_nav) JobProgress: {'identifier': 'lunar_nav', 'progress': 'cmake'}
+[0.007574] (lunar_nav) Command: {'cmd': ['/usr/bin/cmake', '/home/pb/Documents/R2/src/lunar_nav', '-DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav'], 'cwd': '/home/pb/Documents/R2/build/lunar_nav', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pb'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('ANTIGRAVITY_CLI_ALIAS', 'agy'), ('HOME', '/home/pb'), ('CHROME_DESKTOP', 'antigravity.desktop'), ('OLDPWD', '/home/pb/Documents/R2/src/lunar_nav'), ('TERM_PROGRAM_VERSION', '1.104.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/antigravity.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/antigravity/antigravity'), ('MANAGERPID', '1289'), ('SYSTEMD_EXEC_PID', '1576'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ANTIGRAVITY_AGENT', '1'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '136104'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pb'), ('JOURNAL_STREAM', '8:11787'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathmesh:@/tmp/.ICE-unix/1532,unix/prathmesh:/tmp/.ICE-unix/1532'), ('INVOCATION_ID', '3426ac0ff9aa434998982d0ecf972c7c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71F1G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7fb8e9960b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pb/Documents/R2/build/lunar_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.052771] (lunar_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099800] (-) TimerEvent: {}
+[0.100236] (lunar_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.106574] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.163194] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.170477] (lunar_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.170656] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171057] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.173810] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199897] (-) TimerEvent: {}
+[0.240801] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.247740] (lunar_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.247880] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.248244] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.250263] (lunar_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300023] (-) TimerEvent: {}
+[0.377804] (lunar_nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400110] (-) TimerEvent: {}
+[0.451058] (lunar_nav) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.453060] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.457775] (lunar_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.489489] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500199] (-) TimerEvent: {}
+[0.517077] (lunar_nav) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.539484] (lunar_nav) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.600321] (-) TimerEvent: {}
+[0.700625] (-) TimerEvent: {}
+[0.800887] (-) TimerEvent: {}
+[0.813100] (lunar_nav) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.901139] (-) TimerEvent: {}
+[1.001431] (-) TimerEvent: {}
+[1.041826] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101563] (-) TimerEvent: {}
+[1.201853] (-) TimerEvent: {}
+[1.302138] (-) TimerEvent: {}
+[1.340008] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.360024] (lunar_nav) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.361037] (lunar_nav) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.383106] (lunar_nav) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.383285] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.383386] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.383466] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.396467] (lunar_nav) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.402235] (-) TimerEvent: {}
+[1.440198] (lunar_nav) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):\n'}
+[1.440366] (lunar_nav) StderrLine: {'line': b'  add_custom_target cannot create target "ament_cmake_python_copy_lunar_nav"\n'}
+[1.440445] (lunar_nav) StderrLine: {'line': b'  because another target with the same name already exists.  The existing\n'}
+[1.440509] (lunar_nav) StderrLine: {'line': b'  target is a custom target created in source directory\n'}
+[1.440570] (lunar_nav) StderrLine: {'line': b'  "/home/pb/Documents/R2/src/lunar_nav".  See documentation for policy\n'}
+[1.440629] (lunar_nav) StderrLine: {'line': b'  CMP0002 for more details.\n'}
+[1.440689] (lunar_nav) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.440750] (lunar_nav) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[1.440812] (lunar_nav) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_python_install_package)\n'}
+[1.440874] (lunar_nav) StderrLine: {'line': b'\n'}
+[1.440939] (lunar_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[1.441002] (lunar_nav) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):\n'}
+[1.441066] (lunar_nav) StderrLine: {'line': b'  add_custom_target cannot create target\n'}
+[1.441131] (lunar_nav) StderrLine: {'line': b'  "ament_cmake_python_build_lunar_nav_egg" because another target with the\n'}
+[1.441196] (lunar_nav) StderrLine: {'line': b'  same name already exists.  The existing target is a custom target created\n'}
+[1.441261] (lunar_nav) StderrLine: {'line': b'  in source directory "/home/pb/Documents/R2/src/lunar_nav".  See\n'}
+[1.441326] (lunar_nav) StderrLine: {'line': b'  documentation for policy CMP0002 for more details.\n'}
+[1.441398] (lunar_nav) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.441465] (lunar_nav) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)\n'}
+[1.441529] (lunar_nav) StderrLine: {'line': b'  CMakeLists.txt:23 (ament_python_install_package)\n'}
+[1.441593] (lunar_nav) StderrLine: {'line': b'\n'}
+[1.441659] (lunar_nav) StderrLine: {'line': b'\x1b[0m\n'}
+[1.445848] (lunar_nav) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.445968] (lunar_nav) StdoutLine: {'line': b'See also "/home/pb/Documents/R2/build/lunar_nav/CMakeFiles/CMakeOutput.log".\n'}
+[1.450465] (lunar_nav) CommandEnded: {'returncode': 1}
+[1.466870] (lunar_nav) JobEnded: {'identifier': 'lunar_nav', 'rc': 1}
+[1.477502] (-) EventReactorShutdown: {}

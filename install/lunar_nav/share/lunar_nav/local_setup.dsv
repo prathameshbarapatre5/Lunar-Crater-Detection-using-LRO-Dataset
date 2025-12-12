@@ -1,0 +1,4 @@
+source;share/lunar_nav/environment/ament_prefix_path.sh
+source;share/lunar_nav/environment/library_path.sh
+source;share/lunar_nav/environment/path.sh
+source;share/lunar_nav/environment/pythonpath.sh

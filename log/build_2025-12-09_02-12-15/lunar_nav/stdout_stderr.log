@@ -1,0 +1,7 @@
+failed to create symbolic link '/home/pb/Documents/R2/build/lunar_nav/ament_cmake_python/lunar_nav/lunar_nav' because existing path cannot be removed: Is a directory
+[  2%] Built target lunar_nav__cpp
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_lunar_nav.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_lunar_nav] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_lunar_nav.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 12%] Built target lunar_nav__rosidl_generator_c
+gmake: *** [Makefile:146: all] Error 2

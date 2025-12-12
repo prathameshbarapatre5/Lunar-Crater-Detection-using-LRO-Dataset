@@ -1,0 +1,48 @@
+running egg_info
+creating ../../build/lunar_nav/lunar_nav.egg-info
+writing ../../build/lunar_nav/lunar_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/lunar_nav/lunar_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/lunar_nav/lunar_nav.egg-info/entry_points.txt
+writing requirements to ../../build/lunar_nav/lunar_nav.egg-info/requires.txt
+writing top-level names to ../../build/lunar_nav/lunar_nav.egg-info/top_level.txt
+writing manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pb/Documents/R2/build/lunar_nav/build
+creating /home/pb/Documents/R2/build/lunar_nav/build/lib
+creating /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+copying lunar_nav/particle_filter.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+copying lunar_nav/crater_detector.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+copying lunar_nav/__init__.py -> /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav
+running install
+running install_lib
+creating /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/particle_filter.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/crater_detector.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+copying /home/pb/Documents/R2/build/lunar_nav/build/lib/lunar_nav/__init__.py -> /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav
+byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/particle_filter.py to particle_filter.cpython-310.pyc
+byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/crater_detector.py to crater_detector.cpython-310.pyc
+byte-compiling /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index
+creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index
+creating /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages
+copying resource/lunar_nav -> /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav
+creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/launch
+copying launch/crater_navigation.launch.py -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/launch
+creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/urdf
+copying urdf/rover.urdf.xacro -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/urdf
+creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/worlds
+copying worlds/lunar_crater.world -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/worlds
+creating /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+copying msg/Crater.msg -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+copying msg/CraterArray.msg -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg
+running install_egg_info
+Copying ../../build/lunar_nav/lunar_nav.egg-info to /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav-0.0.1-py3.10.egg-info
+running install_scripts
+Installing crater_detector script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+Installing particle_filter script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+writing list of installed files to '/home/pb/Documents/R2/build/lunar_nav/install.log'

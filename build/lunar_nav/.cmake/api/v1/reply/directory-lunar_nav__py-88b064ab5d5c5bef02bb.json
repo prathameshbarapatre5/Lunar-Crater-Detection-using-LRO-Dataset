@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lunar_nav__py",
+		"source" : "/home/pb/Documents/R2/build/lunar_nav/lunar_nav__py"
+	}
+}

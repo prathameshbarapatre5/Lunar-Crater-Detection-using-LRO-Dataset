@@ -1,0 +1,23 @@
+[0.512s] Invoking command in '/home/pb/Documents/R2/src/lunar_nav': PYTHONPATH=/home/pb/Documents/R2/build/lunar_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lunar_nav build --build-base /home/pb/Documents/R2/build/lunar_nav/build install --record /home/pb/Documents/R2/build/lunar_nav/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.728s] writing ../../build/lunar_nav/lunar_nav.egg-info/PKG-INFO
+[0.728s] writing dependency_links to ../../build/lunar_nav/lunar_nav.egg-info/dependency_links.txt
+[0.728s] writing entry points to ../../build/lunar_nav/lunar_nav.egg-info/entry_points.txt
+[0.728s] writing requirements to ../../build/lunar_nav/lunar_nav.egg-info/requires.txt
+[0.728s] writing top-level names to ../../build/lunar_nav/lunar_nav.egg-info/top_level.txt
+[0.730s] reading manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+[0.731s] writing manifest file '../../build/lunar_nav/lunar_nav.egg-info/SOURCES.txt'
+[0.731s] running build
+[0.731s] running build_py
+[0.731s] running install
+[0.731s] running install_lib
+[0.732s] running install_data
+[0.732s] copying launch/crater_navigation.launch.py -> /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/launch
+[0.733s] running install_egg_info
+[0.734s] removing '/home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav-0.0.1-py3.10.egg-info' (and everything under it)
+[0.735s] Copying ../../build/lunar_nav/lunar_nav.egg-info to /home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages/lunar_nav-0.0.1-py3.10.egg-info
+[0.735s] running install_scripts
+[0.753s] Installing crater_detector script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+[0.754s] Installing particle_filter script to /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav
+[0.754s] writing list of installed files to '/home/pb/Documents/R2/build/lunar_nav/install.log'
+[0.774s] Invoked command in '/home/pb/Documents/R2/src/lunar_nav' returned '0': PYTHONPATH=/home/pb/Documents/R2/build/lunar_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pb/Documents/R2/install/lunar_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lunar_nav build --build-base /home/pb/Documents/R2/build/lunar_nav/build install --record /home/pb/Documents/R2/build/lunar_nav/install.log --single-version-externally-managed install_data

@@ -1,0 +1,307 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (lunar_nav) JobQueued: {'identifier': 'lunar_nav', 'dependencies': OrderedDict()}
+[0.000405] (lunar_nav) JobStarted: {'identifier': 'lunar_nav'}
+[0.006226] (lunar_nav) JobProgress: {'identifier': 'lunar_nav', 'progress': 'cmake'}
+[0.006732] (lunar_nav) Command: {'cmd': ['/usr/bin/cmake', '/home/pb/Documents/R2/src/lunar_nav', '-DCMAKE_INSTALL_PREFIX=/home/pb/Documents/R2/install/lunar_nav'], 'cwd': '/home/pb/Documents/R2/build/lunar_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pb/Documents/R2/install/lunar_nav/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pb'), ('OLDPWD', '/home/pb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pb/Documents/R2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathmesh:@/tmp/.ICE-unix/1532,unix/prathmesh:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5944bb91_3284_4796_9251_bca46ceef896'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71F1G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.745'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pb/Documents/R2/build/lunar_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble')]), 'shell': False}
+[0.054516] (lunar_nav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099486] (-) TimerEvent: {}
+[0.101607] (lunar_nav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.107601] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.163948] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.171218] (lunar_nav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.171386] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.171913] (lunar_nav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174551] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199567] (-) TimerEvent: {}
+[0.238547] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.242801] (lunar_nav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.242969] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.243114] (lunar_nav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.244337] (lunar_nav) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299660] (-) TimerEvent: {}
+[0.372628] (lunar_nav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399792] (-) TimerEvent: {}
+[0.445374] (lunar_nav) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.447286] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.452102] (lunar_nav) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.483685] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499865] (-) TimerEvent: {}
+[0.510739] (lunar_nav) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.533299] (lunar_nav) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.599962] (-) TimerEvent: {}
+[0.700330] (-) TimerEvent: {}
+[0.800715] (-) TimerEvent: {}
+[0.804560] (lunar_nav) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.900843] (-) TimerEvent: {}
+[1.001124] (-) TimerEvent: {}
+[1.033299] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101365] (-) TimerEvent: {}
+[1.201734] (-) TimerEvent: {}
+[1.302018] (-) TimerEvent: {}
+[1.331763] (lunar_nav) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.352047] (lunar_nav) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.353136] (lunar_nav) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.375317] (lunar_nav) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.375483] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.375565] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.375641] (lunar_nav) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.394150] (lunar_nav) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.402181] (-) TimerEvent: {}
+[1.453764] (lunar_nav) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.482790] (lunar_nav) StdoutLine: {'line': b'-- Generating done\n'}
+[1.492836] (lunar_nav) StdoutLine: {'line': b'-- Build files have been written to: /home/pb/Documents/R2/build/lunar_nav\n'}
+[1.497533] (lunar_nav) CommandEnded: {'returncode': 0}
+[1.498007] (lunar_nav) JobProgress: {'identifier': 'lunar_nav', 'progress': 'build'}
+[1.498724] (lunar_nav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pb/Documents/R2/build/lunar_nav', '--', '-j20', '-l20'], 'cwd': '/home/pb/Documents/R2/build/lunar_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pb/Documents/R2/install/lunar_nav/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pb'), ('OLDPWD', '/home/pb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pb/Documents/R2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathmesh:@/tmp/.ICE-unix/1532,unix/prathmesh:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5944bb91_3284_4796_9251_bca46ceef896'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71F1G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.745'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pb/Documents/R2/build/lunar_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble')]), 'shell': False}
+[1.502258] (-) TimerEvent: {}
+[1.530744] (lunar_nav) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.539122] (lunar_nav) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.545839] (lunar_nav) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_lunar_nav\n'}
+[1.602381] (-) TimerEvent: {}
+[1.702662] (-) TimerEvent: {}
+[1.754727] (lunar_nav) StdoutLine: {'line': b'running egg_info\n'}
+[1.755502] (lunar_nav) StdoutLine: {'line': b'creating lunar_nav.egg-info\n'}
+[1.755601] (lunar_nav) StdoutLine: {'line': b'writing lunar_nav.egg-info/PKG-INFO\n'}
+[1.755721] (lunar_nav) StdoutLine: {'line': b'writing dependency_links to lunar_nav.egg-info/dependency_links.txt\n'}
+[1.755866] (lunar_nav) StdoutLine: {'line': b'writing top-level names to lunar_nav.egg-info/top_level.txt\n'}
+[1.755975] (lunar_nav) StdoutLine: {'line': b"writing manifest file 'lunar_nav.egg-info/SOURCES.txt'\n"}
+[1.757541] (lunar_nav) StdoutLine: {'line': b"reading manifest file 'lunar_nav.egg-info/SOURCES.txt'\n"}
+[1.758123] (lunar_nav) StdoutLine: {'line': b"writing manifest file 'lunar_nav.egg-info/SOURCES.txt'\n"}
+[1.762717] (lunar_nav) StdoutLine: {'line': b'[  5%] Built target lunar_nav__cpp\n'}
+[1.769623] (lunar_nav) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.769746] (lunar_nav) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.771157] (lunar_nav) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.780203] (lunar_nav) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_lunar_nav_egg\n'}
+[1.802187] (lunar_nav) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_c.dir/rosidl_generator_c/lunar_nav/msg/detail/crater_array__functions.c.o\x1b[0m\n'}
+[1.802727] (-) TimerEvent: {}
+[1.803724] (lunar_nav) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_c.dir/rosidl_generator_c/lunar_nav/msg/detail/crater__functions.c.o\x1b[0m\n'}
+[1.835715] (lunar_nav) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library liblunar_nav__rosidl_generator_c.so\x1b[0m\n'}
+[1.866647] (lunar_nav) StdoutLine: {'line': b'[ 20%] Built target lunar_nav__rosidl_generator_c\n'}
+[1.875578] (lunar_nav) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.875749] (lunar_nav) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.875833] (lunar_nav) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.902855] (-) TimerEvent: {}
+[1.927264] (lunar_nav) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunar_nav/msg/detail/dds_fastrtps/crater_array__type_support.cpp.o\x1b[0m\n'}
+[1.927442] (lunar_nav) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lunar_nav/msg/detail/dds_fastrtps/crater__type_support.cpp.o\x1b[0m\n'}
+[1.948621] (lunar_nav) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunar_nav/msg/crater_array__type_support.cpp.o\x1b[0m\n'}
+[1.950067] (lunar_nav) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lunar_nav/msg/crater__type_support.cpp.o\x1b[0m\n'}
+[2.002949] (-) TimerEvent: {}
+[2.017755] (lunar_nav) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunar_nav/msg/detail/crater_array__type_support.cpp.o\x1b[0m\n'}
+[2.019222] (lunar_nav) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lunar_nav/msg/detail/crater__type_support.cpp.o\x1b[0m\n'}
+[2.067109] (lunar_nav) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunar_nav/msg/detail/crater__type_support_c.cpp.o\x1b[0m\n'}
+[2.067286] (lunar_nav) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lunar_nav/msg/detail/crater_array__type_support_c.cpp.o\x1b[0m\n'}
+[2.103054] (-) TimerEvent: {}
+[2.111143] (lunar_nav) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunar_nav/msg/crater_array__type_support.cpp.o\x1b[0m\n'}
+[2.111367] (lunar_nav) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/lunar_nav__rosidl_typesupport_c.dir/rosidl_typesupport_c/lunar_nav/msg/crater__type_support.cpp.o\x1b[0m\n'}
+[2.135146] (lunar_nav) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunar_nav/msg/detail/crater__type_support.c.o\x1b[0m\n'}
+[2.135628] (lunar_nav) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lunar_nav/msg/detail/crater_array__type_support.c.o\x1b[0m\n'}
+[2.138770] (lunar_nav) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.169892] (lunar_nav) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.170106] (lunar_nav) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library liblunar_nav__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.174441] (lunar_nav) StdoutLine: {'line': b'[ 66%] Built target lunar_nav__rosidl_typesupport_c\n'}
+[2.197494] (lunar_nav) StdoutLine: {'line': b'[ 66%] Built target lunar_nav__rosidl_typesupport_introspection_c\n'}
+[2.203159] (-) TimerEvent: {}
+[2.204539] (lunar_nav) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.231271] (lunar_nav) StdoutLine: {'line': b'[ 69%] Built target lunar_nav__rosidl_typesupport_fastrtps_cpp\n'}
+[2.239871] (lunar_nav) StdoutLine: {'line': b'[ 69%] Built target lunar_nav__rosidl_typesupport_cpp\n'}
+[2.250761] (lunar_nav) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[2.303290] (-) TimerEvent: {}
+[2.314198] (lunar_nav) StdoutLine: {'line': b'[ 71%] Built target lunar_nav__rosidl_typesupport_fastrtps_c\n'}
+[2.362189] (lunar_nav) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library liblunar_nav__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.403418] (-) TimerEvent: {}
+[2.424167] (lunar_nav) StdoutLine: {'line': b'[ 74%] Built target lunar_nav__rosidl_typesupport_introspection_cpp\n'}
+[2.439722] (lunar_nav) StdoutLine: {'line': b'[ 74%] Built target lunar_nav\n'}
+[2.454959] (lunar_nav) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.503644] (-) TimerEvent: {}
+[2.603996] (-) TimerEvent: {}
+[2.704353] (-) TimerEvent: {}
+[2.794429] (lunar_nav) StdoutLine: {'line': b'[ 76%] Built target lunar_nav__py\n'}
+[2.804481] (-) TimerEvent: {}
+[2.810636] (lunar_nav) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_py.dir/rosidl_generator_py/lunar_nav/msg/_crater_array_s.c.o\x1b[0m\n'}
+[2.810810] (lunar_nav) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_generator_py.dir/rosidl_generator_py/lunar_nav/msg/_crater_s.c.o\x1b[0m\n'}
+[2.899907] (lunar_nav) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lunar_nav/liblunar_nav__rosidl_generator_py.so\x1b[0m\n'}
+[2.904607] (-) TimerEvent: {}
+[2.935398] (lunar_nav) StdoutLine: {'line': b'[ 84%] Built target lunar_nav__rosidl_generator_py\n'}
+[2.951892] (lunar_nav) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.952023] (lunar_nav) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.952063] (lunar_nav) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/lunar_nav__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[3.004818] (-) TimerEvent: {}
+[3.018179] (lunar_nav) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.038840] (lunar_nav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.038972] (lunar_nav) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[3.053778] (lunar_nav) StdoutLine: {'line': b'[100%] Built target lunar_nav__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.073072] (lunar_nav) StdoutLine: {'line': b'[100%] Built target lunar_nav__rosidl_typesupport_introspection_c__pyext\n'}
+[3.073199] (lunar_nav) StdoutLine: {'line': b'[100%] Built target lunar_nav__rosidl_typesupport_c__pyext\n'}
+[3.081996] (lunar_nav) CommandEnded: {'returncode': 0}
+[3.082773] (lunar_nav) JobProgress: {'identifier': 'lunar_nav', 'progress': 'install'}
+[3.089514] (lunar_nav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pb/Documents/R2/build/lunar_nav'], 'cwd': '/home/pb/Documents/R2/build/lunar_nav', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pb'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pb/Documents/R2/install/lunar_nav/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pb'), ('OLDPWD', '/home/pb'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1576'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/pb/Documents/R2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pb'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pb'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/prathmesh:@/tmp/.ICE-unix/1532,unix/prathmesh:/tmp/.ICE-unix/1532'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5944bb91_3284_4796_9251_bca46ceef896'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.71F1G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.745'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pb/Documents/R2/build/lunar_nav'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/pb/Documents/R2/install/lunar_nav:/opt/ros/humble')]), 'shell': False}
+[3.095912] (lunar_nav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.096004] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav\n'}
+[3.096040] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py\n'}
+[3.096116] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py\n'}
+[3.096187] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav/crater_detector\n'}
+[3.096268] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/lunar_nav/particle_filter\n'}
+[3.096434] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/rosidl_interfaces/lunar_nav\n'}
+[3.096622] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.096719] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.096752] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.096782] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__functions.c\n'}
+[3.096830] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__struct.h\n'}
+[3.096870] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__functions.h\n'}
+[3.096939] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__struct.h\n'}
+[3.097027] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.h\n'}
+[3.097102] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.h\n'}
+[3.097180] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__functions.h\n'}
+[3.097267] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__functions.c\n'}
+[3.097351] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.097429] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater_array.h\n'}
+[3.097514] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater.h\n'}
+[3.097683] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/library_path.sh\n'}
+[3.097797] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/library_path.dsv\n'}
+[3.097925] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_c.so\n'}
+[3.098252] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_c.so" to ""\n'}
+[3.098303] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.098356] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.098386] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.098432] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_fastrtps_c.h\n'}
+[3.098472] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_fastrtps_c.h\n'}
+[3.098620] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.098728] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_c.so\n'}
+[3.099004] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[3.099057] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.099110] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.099139] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.099182] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_introspection_c.h\n'}
+[3.099225] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.c\n'}
+[3.099302] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_introspection_c.h\n'}
+[3.099375] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.c\n'}
+[3.099461] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.099580] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_c.so\n'}
+[3.099851] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_c.so" to ""\n'}
+[3.099898] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_c.so\n'}
+[3.100168] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_c.so" to ""\n'}
+[3.100213] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.100335] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.100445] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater_array.hpp\n'}
+[3.100539] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.100623] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__traits.hpp\n'}
+[3.100701] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.hpp\n'}
+[3.100777] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__struct.hpp\n'}
+[3.100854] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__traits.hpp\n'}
+[3.100929] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__struct.hpp\n'}
+[3.101006] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__builder.hpp\n'}
+[3.101081] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__builder.hpp\n'}
+[3.101147] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.hpp\n'}
+[3.101222] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/crater.hpp\n'}
+[3.101307] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.101388] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.101463] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.101539] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.101617] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.101684] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.101761] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/dds_fastrtps\n'}
+[3.101827] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.101892] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.102078] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[3.102170] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav\n'}
+[3.102245] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg\n'}
+[3.102311] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail\n'}
+[3.102386] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__type_support.cpp\n'}
+[3.102460] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.102528] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater_array__type_support.cpp\n'}
+[3.102619] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/include/lunar_nav/lunar_nav/msg/detail/crater__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.102686] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_cpp.so\n'}
+[3.102909] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[3.102979] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_cpp.so\n'}
+[3.103182] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_typesupport_cpp.so" to ""\n'}
+[3.103260] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.sh\n'}
+[3.103334] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/pythonpath.dsv\n'}
+[3.103415] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info\n'}
+[3.103489] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.103673] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.103789] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.103864] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.103960] (lunar_nav) StdoutLine: {'line': b'-- Up-to-date: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav\n'}
+[3.104039] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.104115] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.104182] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.104259] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py\n'}
+[3.104335] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.104411] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg\n'}
+[3.104486] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/__init__.py\n'}
+[3.104566] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array_s.c\n'}
+[3.104639] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_s.c\n'}
+[3.104714] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater.py\n'}
+[3.104788] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array.py\n'}
+[3.104858] (-) TimerEvent: {}
+[3.104951] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/_lunar_nav_s.ep.rosidl_typesupport_c.c\n'}
+[3.105032] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/liblunar_nav__rosidl_generator_py.so\n'}
+[3.105100] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.136618] (lunar_nav) StdoutLine: {'line': b"Listing '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav'...\n"}
+[3.136790] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/__init__.py'...\n"}
+[3.136861] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/crater_detector.py'...\n"}
+[3.136925] (lunar_nav) StdoutLine: {'line': b"Listing '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg'...\n"}
+[3.136986] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/__init__.py'...\n"}
+[3.137046] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater.py'...\n"}
+[3.137121] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/msg/_crater_array.py'...\n"}
+[3.137180] (lunar_nav) StdoutLine: {'line': b"Compiling '/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/particle_filter.py'...\n"}
+[3.141557] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.141719] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.141893] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.142139] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.142251] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[3.142531] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/local/lib/python3.10/dist-packages/lunar_nav/lunar_nav_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[3.142724] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_py.so\n'}
+[3.142960] (lunar_nav) StdoutLine: {'line': b'-- Set runtime path of "/home/pb/Documents/R2/install/lunar_nav/lib/liblunar_nav__rosidl_generator_py.so" to ""\n'}
+[3.143074] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/Crater.idl\n'}
+[3.143162] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/CraterArray.idl\n'}
+[3.143241] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/Crater.msg\n'}
+[3.143310] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/msg/CraterArray.msg\n'}
+[3.143389] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch\n'}
+[3.143465] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//launch/crater_navigation.launch.py\n'}
+[3.143557] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf\n'}
+[3.143634] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//urdf/rover.urdf.xacro\n'}
+[3.143711] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds\n'}
+[3.143776] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav//worlds/lunar_crater.world\n'}
+[3.143851] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/package_run_dependencies/lunar_nav\n'}
+[3.144010] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/parent_prefix_path/lunar_nav\n'}
+[3.144121] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.sh\n'}
+[3.144213] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/ament_prefix_path.dsv\n'}
+[3.144378] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.sh\n'}
+[3.144489] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/environment/path.dsv\n'}
+[3.144587] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.bash\n'}
+[3.144692] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.sh\n'}
+[3.144838] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.zsh\n'}
+[3.144953] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/local_setup.dsv\n'}
+[3.145075] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.dsv\n'}
+[3.145275] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/ament_index/resource_index/packages/lunar_nav\n'}
+[3.145384] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cExport.cmake\n'}
+[3.145497] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.145668] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.145746] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.145842] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.146607] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.146679] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cExport.cmake\n'}
+[3.146754] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.146816] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_cppExport.cmake\n'}
+[3.146889] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.146966] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.147038] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.147099] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.147171] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cppExport.cmake\n'}
+[3.147243] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_nav__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.147314] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_pyExport.cmake\n'}
+[3.147383] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/export_lunar_nav__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.147458] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake-extras.cmake\n'}
+[3.147526] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.147610] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.147689] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.147754] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.147828] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.147914] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.147989] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig.cmake\n'}
+[3.148070] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/cmake/lunar_navConfig-version.cmake\n'}
+[3.148162] (lunar_nav) StdoutLine: {'line': b'-- Installing: /home/pb/Documents/R2/install/lunar_nav/share/lunar_nav/package.xml\n'}
+[3.150219] (lunar_nav) CommandEnded: {'returncode': 0}
+[3.168011] (lunar_nav) JobEnded: {'identifier': 'lunar_nav', 'rc': 0}
+[3.168537] (-) EventReactorShutdown: {}

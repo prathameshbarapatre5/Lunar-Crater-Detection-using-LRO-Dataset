@@ -1,0 +1,28 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:122 (add_custom_target):
+  add_custom_target cannot create target "ament_cmake_python_copy_lunar_nav"
+  because another target with the same name already exists.  The existing
+  target is a custom target created in source directory
+  "/home/pb/Documents/R2/src/lunar_nav".  See documentation for policy
+  CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:124 (ament_python_install_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:19 (rosidl_generate_interfaces)
+
+[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:141 (add_custom_target):
+  add_custom_target cannot create target
+  "ament_cmake_python_build_lunar_nav_egg" because another target with the
+  same name already exists.  The existing target is a custom target created
+  in source directory "/home/pb/Documents/R2/src/lunar_nav".  See
+  documentation for policy CMP0002 for more details.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:124 (ament_python_install_package)
+  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+  CMakeLists.txt:19 (rosidl_generate_interfaces)
+
+[0m

@@ -1,0 +1,7 @@
+{
+  "package_name": "lunar_nav",
+  "non_idl_tuples": [
+    "/home/pb/Documents/R2/src/lunar_nav:msg/Crater.msg",
+    "/home/pb/Documents/R2/src/lunar_nav:msg/CraterArray.msg"
+  ]
+}
