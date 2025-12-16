@@ -17,6 +17,45 @@ link for dataset: https://drive.google.com/file/d/1L-14-V4QG1VUtHarI1agPCGRAtBlr
 * **Visualization:** Displays intermediate processing steps and overlays detected craters on the original image.
 * **Regional Analysis:** Allows for zooming into specific regions of interest for detailed crater analysis.
 
+## **Project Block Diagram**
+
+```mermaid
+graph TD
+    A[Input Image (TIFF)] --> B[Load & Preprocess]
+    B --> C{Multichannel?}
+    C -- Yes --> D[Average Channels]
+    C -- No --> E[Grayscale]
+    D --> E
+    E --> F[Process Image]
+    F --> G[Gaussian Smoothing]
+    G --> H[Unsharp Masking]
+    H --> I[Sobel Edge Detection]
+    I --> J[Otsu Thresholding]
+    J --> K[Morphological Cleaning]
+    K --> L[Detect Craters]
+    L --> M[Measure Region Props]
+    M --> N[Output Result]
+```
+
+## **Image Processing Workflow**
+
+The pipeline follows these steps to detect craters:
+
+1.  **Gaussian Smoothing**: Reduces high-frequency noise to prevent false detections.
+2.  **Unsharp Masking**: Enhances the contrast of edges, making crater rims more distinct.
+3.  **Sobel Edge Detection**: Applies a filter to highlight gradients corresponding to crater edges.
+4.  **Otsu Thresholding**: Automatically determines a threshold to convert the grayscale edge map into a binary mask.
+5.  **Morphological Cleaning**:
+    *   `remove_small_objects`: Eliminates noise dots.
+    *   `binary_closing`: Fills small gaps in the crater rims.
+6.  **Labeling & Bounding Boxes**: Identifies connected regions and draws rectangles around them.
+
+## **Sample Results**
+
+Below is a visualization of the intermediate steps and the final detection output:
+
+![Pipeline Samples](pipeline_samples.png)
+
 **Requirements:**
 
 * Python 3.x
