@@ -21,20 +21,20 @@ link for dataset: https://drive.google.com/file/d/1L-14-V4QG1VUtHarI1agPCGRAtBlr
 
 ```mermaid
 graph TD
-    A[Input Image (TIFF)] --> B[Load & Preprocess]
-    B --> C{Multichannel?}
-    C -- Yes --> D[Average Channels]
-    C -- No --> E[Grayscale]
+    A["Input Image (TIFF)"] --> B["Load & Preprocess"]
+    B --> C{"Multichannel?"}
+    C -- Yes --> D["Average Channels"]
+    C -- No --> E["Grayscale"]
     D --> E
-    E --> F[Process Image]
-    F --> G[Gaussian Smoothing]
-    G --> H[Unsharp Masking]
-    H --> I[Sobel Edge Detection]
-    I --> J[Otsu Thresholding]
-    J --> K[Morphological Cleaning]
-    K --> L[Detect Craters]
-    L --> M[Measure Region Props]
-    M --> N[Output Result]
+    E --> F["Process Image"]
+    F --> G["Gaussian Smoothing"]
+    G --> H["Unsharp Masking"]
+    H --> I["Sobel Edge Detection"]
+    I --> J["Otsu Thresholding"]
+    J --> K["Morphological Cleaning"]
+    K --> L["Detect Craters"]
+    L --> M["Measure Region Props"]
+    M --> N["Output Result"]
 ```
 
 ## **Image Processing Workflow**
